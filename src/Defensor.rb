@@ -6,4 +6,8 @@ module Defensor
     self.energia= self.energia - danio
   end
 
+  def descansar
+    self.energia += 10
+  end
+
 end
